@@ -1,11 +1,11 @@
-OUT_DIR=output
+OUT_DIR=docs
 IN_DIR=markdown
 STYLES_DIR=styles
 STYLE=chmduquesne
 
-all: html pdf docx rtf
+all: html pdf
 
-pdf: dir
+pdf:
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
 		echo $$FILE_NAME.pdf; \
@@ -16,31 +16,33 @@ pdf: dir
 		context $(OUT_DIR)/$$FILE_NAME.tex --result=$(OUT_DIR)/$$FILE_NAME.pdf > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
 	done
 
-html: dir
+html: SHELL:=/bin/bash
+html:
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		[[ ! -z "$$FILE_NAME" ]] && [ "$$FILE_NAME" == "resume" ] && FILE_NAME=index; \
 		echo $$FILE_NAME.html; \
 		pandoc --standalone -H $(STYLES_DIR)/$(STYLE).css \
 			--from markdown --to html \
 			-o $(OUT_DIR)/$$FILE_NAME.html $$f; \
 	done
 
-docx: dir
+docx:
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
 		echo $$FILE_NAME.docx; \
 		pandoc -s -S $$f -o $(OUT_DIR)/$$FILE_NAME.docx; \
 	done
 
-rtf: dir
+rtf:
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
 		echo $$FILE_NAME.rtf; \
 		pandoc -s -S $$f -o $(OUT_DIR)/$$FILE_NAME.rtf; \
 	done
 
-dir:
-	mkdir -p $(OUT_DIR)
+watch:
+	while true; do make; inotifywait -qre close_write .; done
 
 clean:
 	rm -f $(OUT_DIR)/*
