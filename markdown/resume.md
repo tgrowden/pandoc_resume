@@ -1,20 +1,25 @@
 Taylor Growden
 ============
 
-> <h2 class="subtitle">Full Stack Web Developer</h2>
+> <h2 class="subtitle">Software Engineer</h2>
 
 ----
 
-> I'm a problem-solver: a full-stack web app developer who enjoys excels at making elegant solutions to all sorts of problems. When I'm not writing code, I enjoy live music, craft beer, hunting for the perfect cup of coffee, and reading a good book.
+> I'm a problem-solver: a full-stack software developer with a passion for front-end engineering. I excel at making elegant solutions to all sorts of problems. When I'm not writing code I enjoy seeing live music, enjoying a solid bourbon cocktail, finding the fabled five-star dive bar in my neighborhood, and working with my hands.
 
 ----
 
 Experience
 ----------
-Nov 2017 - Present
+Nov 2018 - Present
+:   **Product Engineer**, [H1. Insights](https://h1insights.com)
+
+    Working on a product that is "trusted by the top pharmaceutical, biotech, financial, data and healthcare organizations around the world", I have continued to provide new, industry-shaping product features with a small team of talented entineers and data scientists.
+
+Nov 2017 - Nov 2018
 :   **Web App Developer**, [Exclamation Labs](https://exclamationlabs.com/)
 
-    As an agency that focuses in the financial and insurance sectors, I specialize in taking the clients' specific, complex needs and implementing simple-to-use solutions.
+    As an agency that focuses in the financial and insurance sectors, I specialized in taking the clients' specific, complex needs and implementing simple-to-use solutions.
 
 Mar 2016 - Nov 2017
 :   **Software Developer**, [Willetts Systems](https://willettstech.com/)
@@ -30,15 +35,13 @@ Technical Experience
 --------------------
 
 Open Source
-:   I love open source. You can check out a list of some [featured projects](http://tgrowden.com/#/projects) or view my [GitHub](https://github.com/tgrowden).
+:   I love open source. You can check out some of my projects on [GitHub](https://github.com/tgrowden).
 
 Expertise
-:   **JavaScript** is my language of choice; it is powerful and performant, and the ecosystem is fast-paced and exciting. I especially enjoy using **React** and **Next.js** on the frontend. For backend logic, I have plenty of experience with **node** and **Express**. For cross-platform mobile development, my go-to is **React Native**.
-
-:   I have basic to intermediate knowledge of **Java**, **PHP**, **Docker**, and **Bash**/**Shell Scripting**.
+:  Although I've worked with plenty of other technologies, **Typescript** is my language of choice; it is powerful and performant, provides type-safety (while being compatible with current JS stacks), and the ecosystem is fast-paced and exciting. I have plenty of experience with **React**, **Rust**, and **WASM**. For data-source solutions, I have plenty of experience with **Postgres**, **Redis**, and **ElasticSearch**. I am also interested in **GraphQL**, **MongoDB**.
 
 ----
 
-> [github.com/tgrowden](https://github.com/tgrowden) • [tgrowden.com](http://tgrowden.com)\
-> <taylor.growden@gmail.com> • (240) 356-3620\
-> Frostburg, MD USA
+> [https://github.com/tgrowden](https://github.com/tgrowden)\
+> <taylor.growden@gmail.com> • (646) 726-7819\
+> New York, NY USA
