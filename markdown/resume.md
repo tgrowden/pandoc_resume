@@ -5,7 +5,7 @@ Taylor Growden
 
 ----
 
-> I'm a problem-solver: a full-stack software developer with a passion for front-end engineering. I excel at making elegant solutions to all sorts of problems. When I'm not writing code I enjoy seeing live music, enjoying a solid bourbon cocktail, finding the fabled five-star dive bar in my neighborhood, and working with my hands.
+> I'm a problem-solver: I excel at making elegant solutions to all sorts of problems, but am especially passionate about front-end engineering. When I'm not writing code I enjoy seeing live music, trying new beers, and working with my hands.
 
 ----
 
@@ -24,24 +24,24 @@ Nov 2017 - Nov 2018
 Mar 2016 - Nov 2017
 :   **Software Developer**, [Willetts Systems](https://willettstech.com/)
 
-    I worked on custom web-based apps for a variety of clients in various sectors--especially in healthcare. I primarily worked on a fully certified, HIPAA compliant electronic medical record, including designing, maintaining, and documenting a custom REST API for the EMR.
+    I primarily worked on a fully certified, HIPAA compliant electronic medical record, including designing, maintaining, and documenting a custom REST API for the EMR.
 
 Mar 2015 - Mar 2016
 :   **Freelance / Consulting**
 
     During my time working as a consulting web developer, I designed and developed sites and web apps for businesses and individuals, ranging from single static pages to full featured apps solving unique problems.
 
-Technical Experience
+Technical Expertise
 --------------------
 
-Open Source
-:   I love open source. You can check out some of my projects on [GitHub](https://github.com/tgrowden).
-
 Expertise
-:  Although I've worked with plenty of other technologies, **Typescript** is my language of choice; it is powerful and performant, provides type-safety (while being compatible with current JS stacks), and the ecosystem is fast-paced and exciting. I have plenty of experience with **React**, **Rust**, and **WASM**. For data-source solutions, I have plenty of experience with **Postgres**, **Redis**, and **ElasticSearch**. I am also interested in **GraphQL**, **MongoDB**.
+:  I'm always learning something new and I pride myself in picking the right tool for the job.
+
+    I've worked with plenty of languages and technologies. **Typescript** is my language of choice and **React** is my go-to frontend library. I have experience with **Java**, **Rust**, and **WASM**. For data-store solutions, I prefer to work with **GraphQL**, **MongoDB**, **Postgres**, **Redis**, and **ElasticSearch**. You can check out some of my work on Github.
 
 ----
 
 > [https://github.com/tgrowden](https://github.com/tgrowden)\
+> [https://taylorgrowden.com](https://taylorgrowden.com)\
 > <taylor.growden@gmail.com> • (646) 726-7819\
 > New York, NY USA
