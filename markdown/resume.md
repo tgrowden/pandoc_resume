@@ -14,7 +14,7 @@ Experience
 Nov 2018 - Present
 :   **Product Engineer**, [H1. Insights](https://h1insights.com)
 
-    Working on a product that is "trusted by the top pharmaceutical, biotech, financial, data and healthcare organizations around the world", I have continued to provide new, industry-shaping product features with a small team of talented entineers and data scientists.
+    Working on a product that is "trusted by the top pharmaceutical, biotech, financial, data and healthcare organizations around the world", I have continued to provide new, industry-shaping product features with a small team of talented engineers and data scientists.
 
 Nov 2017 - Nov 2018
 :   **Web App Developer**, [Exclamation Labs](https://exclamationlabs.com/)
