@@ -2,6 +2,7 @@ OUT_DIR=docs
 IN_DIR=markdown
 STYLES_DIR=styles
 STYLE=chmduquesne
+TITLE=Taylor Growden - Resume
 
 all: html pdf
 
@@ -24,6 +25,7 @@ html:
 		echo $$FILE_NAME.html; \
 		pandoc --standalone -H $(STYLES_DIR)/$(STYLE).css \
 			--from markdown --to html \
+			--metadata title="${TITLE}" \
 			-o $(OUT_DIR)/$$FILE_NAME.html $$f; \
 	done
 
