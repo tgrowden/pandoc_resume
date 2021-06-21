@@ -1,7 +1,7 @@
 Taylor Growden
 ============
 
-> <h2 class="subtitle">Software Engineer</h2>
+> <h2 class="subtitle">Senior Software Engineer</h2>
 
 ----
 
