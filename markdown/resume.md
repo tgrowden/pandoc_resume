@@ -19,7 +19,7 @@ Feb 2021 - Present
     * Owned, oversaw, and released domain-specific code as part of the product's distributed architecture.
 
 Nov 2018 - Feb 2021
-:   **Product Engineer**, [H1. Insights](https://h1insights.com)
+:   **Software Engineer**, [H1. Insights](https://h1insights.com)
 
     Working on a product that is "trusted by the top pharmaceutical, biotech, financial, data and healthcare organizations around the world", I have continued to provide new, industry-shaping product features with a small team of talented engineers and data scientists.
 
@@ -28,7 +28,8 @@ Nov 2017 - Nov 2018
 
     As an agency that focuses in the financial and insurance sectors, I specialized in taking the clients' specific, complex needs and implementing simple-to-use solutions.
 
-Mar 2016 - Nov 2017
+<!-- Commented-out to keep PDF a single page -->
+<!-- Mar 2016 - Nov 2017
 :   **Software Developer**, [Willetts Systems](https://willettstech.com/)
 
     I primarily worked on a fully certified, HIPAA compliant electronic medical record, including designing, maintaining, and documenting a custom REST API for the EMR.
@@ -36,7 +37,7 @@ Mar 2016 - Nov 2017
 Mar 2015 - Mar 2016
 :   **Freelance / Consulting**
 
-    During my time working as a consulting web developer, I designed and developed sites and web apps for businesses and individuals, ranging from single static pages to full featured apps solving unique problems.
+    During my time working as a consulting web developer, I designed and developed sites and web apps for businesses and individuals, ranging from single static pages to full featured apps solving unique problems. -->
 
 Technical Expertise
 --------------------
