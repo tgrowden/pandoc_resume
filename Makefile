@@ -2,6 +2,7 @@ OUT_DIR=docs
 IN_DIR=markdown
 STYLES_DIR=styles
 STYLE=chmduquesne
+TITLE=Taylor Growden - Resume
 
 all: html pdf
 
@@ -14,6 +15,8 @@ pdf:
 			-V papersize=A4 \
 			-o $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
 		context $(OUT_DIR)/$$FILE_NAME.tex --result=$(OUT_DIR)/$$FILE_NAME.pdf > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
+		mv $$FILE_NAME.pdf $(OUT_DIR)/; \
+		mv $$FILE_NAME.tuc $(OUT_DIR)/; \
 	done
 
 html: SHELL:=/bin/bash
@@ -24,6 +27,7 @@ html:
 		echo $$FILE_NAME.html; \
 		pandoc --standalone -H $(STYLES_DIR)/$(STYLE).css \
 			--from markdown --to html \
+			--metadata title="${TITLE}" \
 			-o $(OUT_DIR)/$$FILE_NAME.html $$f; \
 	done
 
