@@ -27,7 +27,7 @@ html:
 		echo $$FILE_NAME.html; \
 		pandoc --standalone -H $(STYLES_DIR)/$(STYLE).css \
 			--from markdown --to html \
-			--metadata title="${TITLE}" \
+			--metadata pagetitle="${TITLE}" \
 			-o $(OUT_DIR)/$$FILE_NAME.html $$f; \
 	done
 
