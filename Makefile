@@ -15,6 +15,8 @@ pdf:
 			-V papersize=A4 \
 			-o $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
 		context $(OUT_DIR)/$$FILE_NAME.tex --result=$(OUT_DIR)/$$FILE_NAME.pdf > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
+		mv $$FILE_NAME.pdf $(OUT_DIR)/; \
+		mv $$FILE_NAME.tuc $(OUT_DIR)/; \
 	done
 
 html: SHELL:=/bin/bash
