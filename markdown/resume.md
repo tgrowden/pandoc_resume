@@ -11,7 +11,14 @@ Taylor Growden
 
 Experience
 ----------
-Nov 2018 - Present
+Feb 2021 - Present
+:   **Senior Software Engineer**, [H1. Insights](https://h1insights.com)
+
+    * Worked directly with product managers, designers, stakeholders, and other engineers to define, prioritize, and plan features in an ever-changing environment, while also developing those features and seeing them through to completion.
+    * Worked with the design team to create, maintain, and document a React component library compliant with the company's design style guide.
+    * Owned, oversaw, and released domain-specific code as part of the product's distributed architecture.
+
+Nov 2018 - Feb 2021
 :   **Product Engineer**, [H1. Insights](https://h1insights.com)
 
     Working on a product that is "trusted by the top pharmaceutical, biotech, financial, data and healthcare organizations around the world", I have continued to provide new, industry-shaping product features with a small team of talented engineers and data scientists.
@@ -37,7 +44,7 @@ Technical Expertise
 Expertise
 :  I'm always learning something new and I pride myself in picking the right tool for the job.
 
-    I've worked with plenty of languages and technologies. **Typescript** is my language of choice and **React** is my go-to frontend library. I have experience with **Java**, **Rust**, and **WASM**. For data-store solutions, I prefer to work with **GraphQL**, **MongoDB**, **Postgres**, **Redis**, and **ElasticSearch**. You can check out some of my work on Github.
+    I've worked with plenty of languages and technologies. **Typescript** is my language of choice and **React** is my go-to frontend library. For  I have experience with **Java**, **Rust**, and **WASM**. For data-store solutions, I prefer to work with **GraphQL**, **MongoDB**, **Postgres**, **Redis**, and **ElasticSearch**. You can check out some of my work on Github.
 
 ----
 
